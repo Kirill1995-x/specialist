@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/common_padding"
+    android:background="@drawable/background_main"
+    tools:context=".FragmentQuestionary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/date_of_last_questionary"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvDateOfLastQuestionary"
+            style="@style/TextStyle"/>
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/my_targets"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvMainTargets"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/problems_with_study"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvProblemEducation"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/problems_with_flat"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvProblemFlat"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/problems_with_money"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvProblemMoney"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/problems_with_law"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvProblemLaw"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/other_problems"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvOtherProblems"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/name_of_educational_institution"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvNameOfEducationalInstitution"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/level_of_education"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvLevelOfEducation"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/my_professional"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvMyProfessional"
+            style="@style/TextStyle"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/my_interests"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvMyInterests"
+            style="@style/TextStyle"/>
+    </LinearLayout>
+</ScrollView>

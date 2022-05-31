@@ -1,0 +1,687 @@
+<resources>
+    <string name="app_name">Онлайн-куратор</string>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <!--команды в режиме TalkBack-->
+    <string name="navigation_drawer_open">Открыть боковое меню</string>
+    <string name="navigation_drawer_close">Закрыть боковое меню</string>
+    <string name="contentDescriptionPhotoInMyProfile">Фотография профиля</string>
+    <string name="contentDescriptionButtonFindGraduate">Найти выпускника</string>
+    <string name="contentDescriptionOpenProfile">Открыть окно профиля</string>
+    <string name="contentDescriptionInputParametersForSearch">Окно ввода параметров для поиска выпускника</string>
+    <string name="contentDescriptionButtonAttach">Кнопка для прикрепления документа</string>
+    <string name="contentDescriptionButtonSearch">Кнопка для поиска выпускников</string>
+    <string name="contentDescriptionButtonSettings">Кнопка для открытия окна дополнительных настроек поиска выпускников</string>
+
+    <!--описание названий вкладок бокового меню-->
+    <string name="my_profile">Мой профиль</string>
+    <string name="requests_in_progress">Запросы в работе</string>
+    <string name="requests_personal">Персональные запросы</string>
+    <string name="requests_for_all">Общие запросы</string>
+    <string name="data_about_graduates">Данные о выпускниках</string>
+    <string name="agreement">Соглашение</string>
+    <string name="tech_support">Тех.поддержка</string>
+    <string name="exit">Выход</string>
+    <string name="online">Могу принимать запросы</string>
+    <string name="offline">Не могу принимать запросы</string>
+
+    <!--сообщения с ошибками-->
+    <string name="error_connection">Ошибка подключения</string>
+    <string name="check_connection">Проверьте подключение к Интернету и повторите попытку</string>
+    <string name="try_request">Повторить</string>
+    <string name="something_went_wrong">Что-то пошло не так</string>
+    <string name="check_data">Проверьте корректность введенных данных</string>
+    <string name="agreement_not_attach">Вы не прикрепили заявление</string>
+    <string name="check_passwords">Ваши пароли не совпадают</string>
+    <string name="size_of_file">Размер файла не должен превышать 1МБ</string>
+
+    <!--названия для вкладки логин-->
+    <string name="login">Войти</string>
+    <string name="email_login">Почта</string>
+    <string name="password_login">Пароль</string>
+    <string name="register_here">Регистрация</string>
+    <string name="forgot_password">Забыли пароль?</string>
+
+    <!--названия для вкладки Забыли пароль?-->
+    <string name="Write_email">Пожалуйста, укажите email, который Вы использовали для входа в приложение. На ваш email будет отправлен пароль.</string>
+
+    <!--названия для вкладки Оформление заявки-->
+    <string name="prepare_request">Оформление заявки</string>
+    <string name="description_prepare_request">Для оформления заявки необходимо заполнить все поля ниже. После одобрения заявки ответ придет на email Вашей организации, поэтому будьте внимательны при заполнении данного поля. Ответ ожидайте в течение 24 часов с момента отправки обращения.</string>
+    <string name="name_of_organization">Название организации</string>
+    <string name="email_organization">Почта организации</string>
+    <string name="city_organization">Название населенного пункта</string>
+
+    <!--названия для вкладок Регистрация и Мой профиль-->
+    <string name="edit">Редактировать</string>
+    <string name="save">Обновить профиль</string>
+    <string name="send">Отправить</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="input_old_password">Введите старый пароль</string>
+    <string name="input_new_password">Введите новый пароль</string>
+    <string name="confirm_new_password">Подтвердите новый пароль</string>
+    <string name="refresh_photo">Обновить фотографию</string>
+    <string name="remove_photo">Удалить фотографию</string>
+    <string name="email">Почта</string>
+    <string name="number_of_phone">Рабочий номер телефона</string>
+    <string name="surname">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="middlename">Отчество</string>
+    <string name="direction_child_home">Введите название организации, в которой Вы работаете</string>
+    <string name="child_home">Название организации</string>
+    <string name="users_subject">Регион проживания</string>
+    <string name="users_city">Населенный пункт проживания</string>
+    <string name="type_of_specialist">Выберите Вашу специализацию</string>
+    <string name="start_of_workday">Начало рабочего дня</string>
+    <string name="end_of_workday">Конец рабочего дня</string>
+    <string name="number_phone_code">+7</string>
+    <string name="agreement_about_processing_personal_data">Согласие на обработку персональных данных</string>
+    <string name="link_for_reading_document"><u>Ознакомление с документом</u></string>
+    <string name="email_of_organization">Введите email организации, в которой Вы работаете</string>
+    <string name="go_to_registration">Перейти к регистрации</string>
+    <string name="register">Зарегистрироваться</string>
+
+    <!--названия для вкладок с запросами-->
+    <string name="type_of_help">Требуемая помощь:</string>
+    <string name="psychologist_request">Психолого-педагогическая помощь в решении личных и профессиональных вопросов</string>
+    <string name="lawyer_request">Юридическая помощь в решении вопросов с жильем, законом, обращением в прокуратуру, суд и судебным приставам</string>
+    <string name="household_request">Помощь в решении бытовых вопросов</string>
+    <string name="health_request">Помощь в решении вопросов здравоохранения</string>
+    <string name="education_request">Помощь в решении вопросов,связанных с учебной деятельностью</string>
+    <string name="finance_request">Помощь в решении финансовых вопросов</string>
+    <string name="other_request">Иная помощь</string>
+    <string name="error_request">Ошибка:тип запроса</string>
+    <string name="list_of_requests_in_progress">Список взятых в работу запросов</string>
+    <string name="list_of_requests_personal">Список адресованных Вам запросов</string>
+    <string name="list_of_requests_for_all">Запросы, ожидающие исполнителя</string>
+    <string name="fullname_of_graduate">ФИО выпускника:</string>
+    <string name="phone_of_graduate">Телефон:</string>
+    <string name="email_of_graduate">email:</string>
+    <string name="city_of_graduate">Населенный пункт:</string>
+    <string name="request_from_graduate">Текст запроса:</string>
+    <string name="attach_documentation">Прикрепленные документы:</string>
+    <string name="date_and_time_request_sent">Дата и время (московское), когда был отправлен запрос:</string>
+    <string name="take_request">Взять в работу</string>
+
+    <!--названия для вкладки Данные о выпускниках-->
+    <string name="hint_searching">Поиск выпускника</string>
+    <string name="not_results">По вашему запросу результатов не найдено</string>
+
+    <!--название для вкладки Профиль-->
+    <!--email, телефон, регион и населенный пункт описаны во вкладках Регистрация и Мой профиль-->
+    <string name="date_of_birth">Дата рождения:</string>
+    <string name="sex_of_user">Пол:</string>
+    <string name="registration_address">Адрес прописки</string>
+    <string name="type_of_flat_from_factual_address">Жилищные условия</string>
+    <string name="factual_address">Фактический адрес проживания</string>
+
+    <!--названия для вкладки Анкетирование-->
+    <string name="my_targets">Основные цели на год выпускника</string>
+    <string name="my_interests">Увлечения выпускника</string>
+    <string name="problems_with_study">Описание проблем с учебой</string>
+    <string name="problems_with_flat">Описание проблем с жильем</string>
+    <string name="problems_with_money">Описание материальных проблем</string>
+    <string name="problems_with_law">Описание проблем с законом</string>
+    <string name="other_problems">Описание других проблем</string>
+    <string name="name_of_educational_institution">Название учебного заведения, в котором обучаетеся выпускник</string>
+    <string name="level_of_education">Уровень образования выпускника</string>
+    <string name="my_professional">Текущая профессия выпускника</string>
+    <string name="date_of_last_questionary">Дата последнего прохождения Анкетирования:</string>
+
+    <!--названия для вкладки Соглашение-->
+    <string name="hint_agreement">Подсказка</string>
+    <string name="rule_agreement">Для допуска к регистрации в приложении ВПомошь несовершеннолетнего пользователя Вам необходимо ввести его ФИО и прикрепить соглашение на обработку персональных данных</string>
+    <string name="surname_of_graduate">Фамилия несовершеннолетнего</string>
+    <string name="name_of_graduate">Имя несовершеннолетнего</string>
+    <string name="middlename_of_graduate">Отчество несовершеннолетнего</string>
+    <string name="download_agreement">Скачать шаблон заявления</string>
+    <string name="attach_agreement">Прикрепить соглашение</string>
+    <string name="send_agreement">Отправить</string>
+
+    <!--названия для вкладки Тех.поддеркжи-->
+    <string name="tech_support_title">Сообщение для тех.поддержки:</string>
+    <string name="tech_support_describe">Кратко опишите проблему</string>
+    <string name="tech_support_attach_screenshot_describe">При необходимости Вы можете прикрепить скриншот с проблемой</string>
+    <string name="tech_support_attach_screenshot">Прикрепить скриншот</string>
+
+    <!--меню-->
+    <string name="menu_about_app">О приложении</string>
+    <string name="menu_confidence">Политика конфиденциальности</string>
+    <string name="menu_delete_profile">Удалить аккаунт</string>
+
+    <!--диалоги-->
+    <string name="button_ok">ОК</string>
+    <string name="button_yes">Да</string>
+    <string name="button_no">Нет</string>
+    <string name="button_later">Позже</string>
+    <string name="button_success">Оценить</string>
+    <string name="button_update">Обновить</string>
+    <string name="button_save">Сохранить</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_quit">Выйти</string>
+    <string name="button_positive_permission">Настроить</string>
+    <string name="button_negative_permission">Отмена</string>
+    <string name="button_restore">Восстановить</string>
+    <string name="button_delete">Удалить</string>
+    <string name="button_apply">Применить</string>
+    <string name="title_estimate">Оценить приложение</string>
+    <string name="title_update">Обновить приложение</string>
+    <string name="title_password">Изменение пароля</string>
+    <string name="title_quit">Выход</string>
+    <string name="title_save_data">Сохранение данных</string>
+    <string name="title_permission">Получение разрешения</string>
+    <string name="title_error">Ошибка</string>
+    <string name="title_settings">Дополнительные параметры поиска</string>
+    <string name="message_estimate">Вам нравится это приложение? Оцените его</string>
+    <string name="message_update">Доступна новая версия приложения</string>
+    <string name="message_quit">Вы дейстивтельно хотите выйти из приложения?</string>
+    <string name="message_save_data">Измененные данные не были сохранены. Вы уверены, что хотите выйти?</string>
+    <string name="message_permission">Для работы нам необходимо получить от Вас разрешение на работу с внешним хранилищем. Данное разрешение позволит Вам добавлять и сохранять картинки, документы</string>
+    <string name="message_error">Сервис по работе с загрузками не работает</string>
+    <string name="message_delete_profile">Вы действительно хотите удалить аккаунт? Для восстановления аккаунта Вам потребуется ввести логин и пароль</string>
+    <string name="message_restore_profile">Вы хотите восстановить аккаунт?</string>
+    <string name="message_input_city">Населенный пункт</string>
+    <string name="message_input_organization">Организация для детей-сирот</string>
+
+    <string-array name="array_hours">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+
+    <string-array name="array_minutes">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="array_specialist">
+        <item>-</item>
+        <item>Педагог-психолог</item>
+        <item>Юрист</item>
+        <item>Социальный педагог</item>
+        <item>Специалист по социальной работе</item>
+    </string-array>
+
+    <string-array name="array_cities">
+        <!--Алтайский край-->
+        <item>Барнаул</item>
+        <item>Бийск</item>
+        <item>Новоалтайск</item>
+        <item>Рубцовск</item>
+        <item>Камень-на-Оби</item>
+        <item>Заринск</item>
+        <!--Амурская область-->
+        <item>Благовещенск</item>
+        <item>Белогорск</item>
+        <item>село Ивановка</item>
+        <item>село Дмитриевка</item>
+        <item>село Березовка</item>
+        <item>село Ерковцы</item>
+        <!--Архангельская область-->
+        <item>Архангельск</item>
+        <item>Северодвинск</item>
+        <item>Котлас</item>
+        <item>Новодвинск</item>
+        <!--Астраханская область-->
+        <item>Астрахань</item>
+        <item>Ахтубинск</item>
+        <!--Белгородская область-->
+        <item>Белгород</item>
+        <item>Старый Оскол</item>
+        <!--Брянская область-->
+        <item>Брянск</item>
+        <item>Клинцы</item>
+        <!--Владимирская область-->
+        <item>Владимир</item>
+        <item>Ковров</item>
+        <item>Муром</item>
+        <!--Волгоградская область-->
+        <item>Волгоград</item>
+        <item>Волжский</item>
+        <item>Камышин</item>
+        <!--Вологодская область-->
+        <item>Вологда</item>
+        <item>Череповец</item>
+        <!--Воронежская область-->
+        <item>Воронеж</item>
+        <item>Россошь</item>
+        <item>Борисоглебск</item>
+        <item>Бобров</item>
+        <!--Москва-->
+        <item>Москва</item>
+        <!--Еврейская автономная область-->
+        <item>Биробиджан</item>
+        <item>Облучье</item>
+        <!--Забайкальский край-->
+        <item>Чита</item>
+        <item>Краснокаменск</item>
+        <!--Ивановская область-->
+        <item>Иваново</item>
+        <item>Кинешма</item>
+        <item>Шуя</item>
+        <!--Иркутская область-->
+        <item>Иркутск</item>
+        <item>Братск</item>
+        <item>Ангарск</item>
+        <item>Усть-Илимск</item>
+        <item>Усолье-Сибирское</item>
+        <!--Калининградская область-->
+        <item>Калининград</item>
+        <item>Балтийск</item>
+        <item>Янтарный</item>
+        <item>Зеленоградск</item>
+        <!--Калужская область-->
+        <item>Калуга</item>
+        <item>Обнинск</item>
+        <!--Камчатский край-->
+        <item>Петропавловск-Камчатский</item>
+        <item>Вилючинск</item>
+        <item>Елизово</item>
+        <!--Кемеровская область-->
+        <item>Кемерово</item>
+        <item>Новокузнецк</item>
+        <item>Прокопьевск</item>
+        <item>Междуреченск</item>
+        <!--Кировская область-->
+        <item>Киров</item>
+        <item>Кирово-Чепецк</item>
+        <!--Костромская область-->
+        <item>Кострома</item>
+        <item>Шарья</item>
+        <item>Буй</item>
+        <!--Краснодарский край-->
+        <item>Краснодар</item>
+        <item>Сочи</item>
+        <item>Новороссийск</item>
+        <item>Армавир</item>
+        <item>Ейск</item>
+        <item>Анапа</item>
+        <item>Геленджик</item>
+        <item>Славянск-на-Кубани</item>
+        <item>Белореченск</item>
+        <!--Красноярский край-->
+        <item>Красноярск</item>
+        <item>Норильск</item>
+        <item>Ачинск</item>
+        <item>Канск</item>
+        <item>Железногорск(Красноярский край)</item>
+        <item>Минусинск</item>
+        <item>Зеленогорск</item>
+        <!--Курганская область-->
+        <item>Курган</item>
+        <item>Шадринск</item>
+        <!--Курская область-->
+        <item>Курск</item>
+        <item>Железногорск(Курская область)</item>
+        <item>Курчатов</item>
+        <!--Ленинградская область-->
+        <item>Гатчина</item>
+        <item>Выборг</item>
+        <item>Всеволожск</item>
+        <item>Сосновый Бор</item>
+        <!--Липецкая область-->
+        <item>Липецк</item>
+        <item>Елец</item>
+        <item>Грязи</item>
+        <!--Магаданская область-->
+        <item>Магадан</item>
+        <!--Московская область-->
+        <item>Балашиха</item>
+        <item>Подольск</item>
+        <item>Химки</item>
+        <item>Королёв</item>
+        <item>Мытищи</item>
+        <item>Люберцы</item>
+        <item>Красногорск</item>
+        <item>Электросталь</item>
+        <item>Коломна</item>
+        <item>Одинцово</item>
+        <item>Домодедово</item>
+        <item>Серпухов</item>
+        <item>Раменское</item>
+        <item>Орехово-Зуево</item>
+        <item>Долгопрудный</item>
+        <item>Жуковский</item>
+        <item>Реутов</item>
+        <!--Мурманская область-->
+        <item>Мурманск</item>
+        <item>Апатиты</item>
+        <item>Североморск</item>
+        <!--Ненецкий автономный округ-->
+        <item>Нарьян-Мар</item>
+        <!--Нижегородская область-->
+        <item>Нижний Новгород</item>
+        <item>Дзержинск</item>
+        <item>Арзамас</item>
+        <!--Новгородская область-->
+        <item>Великий Новгород</item>
+        <item>Боровичи</item>
+        <!--Новосибирская область-->
+        <item>Новосибирск</item>
+        <item>Бердск</item>
+        <!--Омская область-->
+        <item>Омск</item>
+        <!--Оренбургская область-->
+        <item>Оренбург</item>
+        <item>Орск</item>
+        <item>Новотроицк</item>
+        <item>Бузулук</item>
+        <item>Бугуруслан</item>
+        <!--Орловская область-->
+        <item>Орёл</item>
+        <item>Ливны</item>
+        <item>Мценск</item>
+        <!--Пензенская область-->
+        <item>Пенза</item>
+        <item>Кузнецк</item>
+        <item>Заречный(Пензенская область)</item>
+        <!--Пермский край-->
+        <item>Пермь</item>
+        <item>Березники</item>
+        <item>Соликамск</item>
+        <item>Чайковский</item>
+        <item>Кунгур</item>
+        <!--Приморский край-->
+        <item>Владивосток</item>
+        <item>Уссурийск</item>
+        <item>Находка</item>
+        <!--Псковская область-->
+        <item>Псков</item>
+        <item>Великие Луки</item>
+        <!--Республика Адыгея-->
+        <item>Майкоп</item>
+        <item>Яблоновский</item>
+        <!--Республика Алтай-->
+        <item>Горно-Алтайск</item>
+        <!--Республика Башкортостан-->
+        <item>Уфа</item>
+        <item>Стерлитамак</item>
+        <item>Салават</item>
+        <item>Нефтекамск</item>
+        <item>Октябрьский</item>
+        <item>Белебей</item>
+        <!--Республика Бурятия-->
+        <item>Улан-Удэ</item>
+        <item>Северобайкальск</item>
+        <item>Гусиноозёрск</item>
+        <!--Республика Дагестан-->
+        <item>Махачкала</item>
+        <item>Хасавюрт</item>
+        <item>Дербент</item>
+        <item>Каспийск</item>
+        <!--Республика Ингушетия-->
+        <item>Назрань</item>
+        <item>Сунжа</item>
+        <!--Кабардино-Балкарская Республика-->
+        <item>Нальчик</item>
+        <item>Прохладный</item>
+        <item>Баксан</item>
+        <!--Республика Калмыкия-->
+        <item>Элиста</item>
+        <!--Карачаево-Черкесская Республика-->
+        <item>Черкесск</item>
+        <item>Усть-Джегута</item>
+        <item>Карачаевск</item>
+        <!--Республика Карелия-->
+        <item>Петрозаводск</item>
+        <item>Кондопога</item>
+        <!--Республика Коми-->
+        <item>Сыктывкар</item>
+        <item>Ухта</item>
+        <item>Воркута</item>
+        <!--Республика Крым-->
+        <item>Симферополь</item>
+        <item>Керчь</item>
+        <item>Евпатория</item>
+        <item>Ялта</item>
+        <!--Республика Марий Эл-->
+        <item>Йошкар-Ола</item>
+        <item>Волжск</item>
+        <!--Республика Мордовия-->
+        <item>Саранск</item>
+        <item>Рузаевка</item>
+        <!--Республика Саха (Якутия)-->
+        <item>Якутск</item>
+        <item>Нерюнгри</item>
+        <!--Республика Северная Осетия-->
+        <item>Владикавказ</item>
+        <item>Моздок</item>
+        <item>Беслан</item>
+        <!--Республика Татарстан-->
+        <item>Казань</item>
+        <item>Набережные Челны</item>
+        <item>Нижнекамск</item>
+        <item>Альметьевск</item>
+        <item>Зеленодольск</item>
+        <item>Бугульма</item>
+        <!--Республика Тыва-->
+        <item>Кызыл</item>
+        <!--Республика Хакасия-->
+        <item>Абакан</item>
+        <item>Черногорск</item>
+        <!--Чеченская Республика-->
+        <item>Грозный</item>
+        <item>Урус-Мартан</item>
+        <!--Чувашская Республика-->
+        <item>Чебоксары</item>
+        <item>Новочебоксарск</item>
+        <item>Канаш</item>
+        <!--Ростовская область-->
+        <item>Ростов-на-Дону</item>
+        <item>Таганрог</item>
+        <item>Шахты</item>
+        <item>Волгодонск</item>
+        <!--Рязанская область-->
+        <item>Рязань</item>
+        <!--Самарская область-->
+        <item>Самара</item>
+        <item>Тольятти</item>
+        <item>Сызрань</item>
+        <item>Новокуйбышевск</item>
+        <!--Санкт-Петербург-->
+        <item>Санкт-Петербург</item>
+        <!--Саратовская область-->
+        <item>Саратов</item>
+        <item>Энгельс</item>
+        <item>Балаково</item>
+        <!--Сахалинская область-->
+        <item>Южно-Сахалинск</item>
+        <!--Свердловская область-->
+        <item>Екатеринбург</item>
+        <item>Нижний Тагил</item>
+        <item>Каменск-Уральский</item>
+        <item>Первоуральск</item>
+        <item>Серов</item>
+        <item>Новоуральск</item>
+        <item>Асбест</item>
+        <item>Полевской</item>
+        <item>Верхняя Пышма</item>
+        <item>Ревда</item>
+        <item>Краснотурьинск</item>
+        <item>Березовский</item>
+        <item>Лесной</item>
+        <item>Верхняя Салда</item>
+        <item>Качканар</item>
+        <item>Красноуфимск</item>
+        <item>Алапаевск</item>
+        <item>Ирбит</item>
+        <item>Реж</item>
+        <item>Тавда</item>
+        <item>Сухой Лог</item>
+        <item>Артемовский</item>
+        <item>Богданович</item>
+        <item>Кушва</item>
+        <item>Карпинск</item>
+        <item>Североуральск</item>
+        <item>Заречный(Свердловская область)</item>
+        <item>Камышлов</item>
+        <item>Туринск</item>
+        <!--Севастополь-->
+        <item>Севастополь</item>
+        <!--Смоленская область-->
+        <item>Смоленск</item>
+        <item>Вязьма</item>
+        <!--Ставропольский край-->
+        <item>Ставрополь</item>
+        <item>Пятигорск</item>
+        <item>Кисловодск</item>
+        <item>Невинномысск</item>
+        <item>Ессентуки</item>
+        <!--Тамбовская область-->
+        <item>Тамбов</item>
+        <item>Мичуринск</item>
+        <item>Рассказово</item>
+        <!--Тверская область-->
+        <item>Тверь</item>
+        <item>Ржев</item>
+        <!--Томская область-->
+        <item>Томск</item>
+        <item>Северск</item>
+        <!--Тульская область-->
+        <item>Тула</item>
+        <item>Новомосковск</item>
+        <!--Тюменская область-->
+        <item>Тюмень</item>
+        <item>Тобольск</item>
+        <item>Ишим</item>
+        <!--Удмуртская Республика-->
+        <item>Ижевск</item>
+        <item>Воткинск</item>
+        <item>Сарапул</item>
+        <item>Глазов</item>
+        <!--Ульяновская область-->
+        <item>Ульяновск</item>
+        <item>Димитровград</item>
+        <!--Хабаровский край-->
+        <item>Хабаровск</item>
+        <item>Комсомольск-на-Амуре</item>
+        <item>Амурск</item>
+        <!--Ханты-Мансийский автономный округ-->
+        <item>Сургут</item>
+        <item>Нижневартовск</item>
+        <item>Нефтеюганск</item>
+        <item>Ханты-Мансийск</item>
+        <!--Челябинская область-->
+        <item>Челябинск</item>
+        <item>Магнитогорск</item>
+        <item>Златоуст</item>
+        <item>Миасс</item>
+        <item>Копейск</item>
+        <item>Озёрск</item>
+        <!--Чукотский автономный округ-->
+        <item>Анадырь</item>
+        <!--Ямало-Ненецкий автономный округ-->
+        <item>Новый Уренгой</item>
+        <item>Ноябрьск</item>
+        <item>Салехард</item>
+        <item>Надым</item>
+        <!--Ярославская область-->
+        <item>Ярославь</item>
+        <item>Рыбинск</item>
+        <item>Тутаев</item>
+    </string-array>
+
+    <string-array name="array_subjects">
+        <item>Алтайский край</item>
+        <item>Амурская область</item>
+        <item>Архангельская область</item>
+        <item>Астраханская область</item>
+        <item>Белгородская область</item>
+        <item>Брянская область</item>
+        <item>Владимирская область</item>
+        <item>Волгоградская область</item>
+        <item>Вологодская область</item>
+        <item>Воронежская область</item>
+        <item>Москва</item>
+        <item>Еврейская автономная область</item>
+        <item>Забайкальский край</item>
+        <item>Ивановская область</item>
+        <item>Иркутская область</item>
+        <item>Калининградская область</item>
+        <item>Калужская область</item>
+        <item>Камчатский край</item>
+        <item>Кемеровская область</item>
+        <item>Кировская область</item>
+        <item>Костромская область</item>
+        <item>Краснодарский край</item>
+        <item>Красноярский край</item>
+        <item>Курганская область</item>
+        <item>Курская область</item>
+        <item>Ленинградская область</item>
+        <item>Липецкая область</item>
+        <item>Магаданская область</item>
+        <item>Московская область</item>
+        <item>Мурманская область</item>
+        <item>Ненецкий автономный округ</item>
+        <item>Нижегородская область</item>
+        <item>Новгородская область</item>
+        <item>Новосибирская область</item>
+        <item>Омская область</item>
+        <item>Оренбургская область</item>
+        <item>Орловская область</item>
+        <item>Пензенская область</item>
+        <item>Пермский край</item>
+        <item>Приморский край</item>
+        <item>Псковская область</item>
+        <item>Республика Адыгея</item>
+        <item>Республика Алтай</item>
+        <item>Республика Башкортостан</item>
+        <item>Республика Бурятия</item>
+        <item>Республика Дагестан</item>
+        <item>Республика Ингушетия</item>
+        <item>Кабардино-Балкарская Республика</item>
+        <item>Республика Калмыкия</item>
+        <item>Карачаево-Черкесская Республика</item>
+        <item>Республика Карелия</item>
+        <item>Республика Коми</item>
+        <item>Республика Крым</item>
+        <item>Республика Марий Эл</item>
+        <item>Республика Мордовия</item>
+        <item>Республика Саха (Якутия)</item>
+        <item>Республика Северная Осетия</item>
+        <item>Республика Татарстан</item>
+        <item>Республика Тыва</item>
+        <item>Республика Хакасия</item>
+        <item>Чеченская Республика</item>
+        <item>Чувашская Республика</item>
+        <item>Ростовская область</item>
+        <item>Рязанская область</item>
+        <item>Самарская область</item>
+        <item>Санкт-Петербург</item>
+        <item>Саратовская область</item>
+        <item>Сахалинская область</item>
+        <item>Свердловская область</item>
+        <item>Севастополь</item>
+        <item>Смоленская область</item>
+        <item>Ставропольский край</item>
+        <item>Тамбовская область</item>
+        <item>Тверская область</item>
+        <item>Томская область</item>
+        <item>Тульская область</item>
+        <item>Тюменская область</item>
+        <item>Удмуртская Республика</item>
+        <item>Ульяновская область</item>
+        <item>Хабаровский край</item>
+        <item>Ханты-Мансийский автономный округ</item>
+        <item>Челябинская область</item>
+        <item>Чукотский автономный округ</item>
+        <item>Ямало-Ненецкий автономный округ</item>
+        <item>Ярославская область</item>
+    </string-array>
+</resources>
+

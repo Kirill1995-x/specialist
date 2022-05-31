@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_main"
+    android:padding="@dimen/common_padding"
+    tools:context=".MyProfile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgMyProfile"
+                style="@style/ImageViewStyle"
+                android:contentDescription="@string/contentDescriptionPhotoInMyProfile"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/marginBottom">
+                <Button
+                    android:id="@+id/btnRefreshPhoto"
+                    style="@style/ButtonStyleLeft"
+                    android:text="@string/refresh_photo"/>
+                <Button
+                    android:id="@+id/btnRemovePhoto"
+                    style="@style/ButtonStyleRight"
+                    android:text="@string/remove_photo"/>
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilMyProfileSurname"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietMyProfileSurname"
+                    style="@style/EditTextStyleForTextLine"
+                    android:hint="@string/surname"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilMyProfileName"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietMyProfileName"
+                    style="@style/EditTextStyleForTextLine"
+                    android:hint="@string/name"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilMyProfileMiddlename"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietMyProfileMiddlename"
+                    style="@style/EditTextStyleForTextLine"
+                    android:hint="@string/middlename"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilMyProfileEmail"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietMyProfileEmail"
+                    style="@style/TextInputEditTextStyle"
+                    android:hint="@string/email"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/main_size"
+                    android:textColor="@color/color_for_text"
+                    android:text="@string/number_phone_code"
+                    android:enabled="false"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilMyProfilePhone"
+                    style="@style/EditTextStyle"
+                    app:errorEnabled="true">
+                    <com.santalu.maskedittext.MaskEditText
+                        android:id="@+id/metMyProfilePhone"
+                        style="@style/TextInputEditTextStyle"
+                        android:hint="@string/number_of_phone"
+                        android:inputType="phone"
+                        app:met_mask="(###) ### ## ##"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnChangePassword"
+                style="@style/ButtonStyle"
+                android:text="@string/change_password"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilMyProfileSubject"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <AutoCompleteTextView
+                    android:id="@+id/actvMyProfileSubject"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/users_subject"
+                    android:completionThreshold="2"
+                    android:completionHint="@string/users_subject"
+                    android:layout_marginBottom="15dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilMyProfileCity"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <AutoCompleteTextView
+                    android:id="@+id/actvMyProfileCity"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/users_city"
+                    android:completionThreshold="2"
+                    android:completionHint="@string/users_city"
+                    android:layout_marginBottom="15dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilMyProfileChildHome"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietMyProfileChildHome"
+                    style="@style/EditTextStyleForTextLine"
+                    android:hint="@string/child_home"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                style="@style/TextStyle"
+                android:text="@string/start_of_workday"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spStartWorkDayHoursMyProfile"
+                    style="@style/SpinnerStyle">
+                </Spinner>
+                <Spinner
+                    android:id="@+id/spStartWorkDayMinutesMyProfile"
+                    style="@style/SpinnerStyle">
+                </Spinner>
+            </LinearLayout>
+            <TextView
+                style="@style/TextStyle"
+                android:text="@string/end_of_workday"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spEndWorkDayHoursMyProfile"
+                    style="@style/SpinnerStyle">
+                </Spinner>
+                <Spinner
+                    android:id="@+id/spEndWorkDayMinutesMyProfile"
+                    style="@style/SpinnerStyle">
+                </Spinner>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRefreshData"
+                style="@style/ButtonStyle"
+                android:text="@string/save"/>
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/progressBarMyProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+</FrameLayout>

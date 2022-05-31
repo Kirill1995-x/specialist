@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background_main"
+android:padding="@dimen/common_padding"
+tools:context=".PrepareRequest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/TextStyleForTitle"
+                android:text="@string/prepare_request"/>
+            <TextView
+                style="@style/TextStyle"
+                android:text="@string/description_prepare_request"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilOrganization"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietOrganization"
+                    style="@style/TextInputEditTextStyle"
+                    android:hint="@string/name_of_organization"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilEmailOfOrganization"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietEmailOfOrganization"
+                    style="@style/TextInputEditTextStyle"
+                    android:hint="@string/email_organization"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilCityOfOrganization"
+                style="@style/EditTextStyle"
+                app:errorEnabled="true">
+                <AutoCompleteTextView
+                    android:id="@+id/actvCityOfOrganization"
+                    style="@style/TextInputEditTextStyle"
+                    android:hint="@string/city_organization"
+                    android:completionThreshold="2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnPrepareRequest"
+                style="@style/ButtonStyle"
+                android:text="@string/send"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBarPrepareRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+</FrameLayout>

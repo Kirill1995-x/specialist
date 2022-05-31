@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_requests_in_progress"
+            android:icon="@drawable/ic_requests_in_progress"
+            android:title="@string/requests_in_progress"
+            app:actionViewClass="android.widget.TextView"/>
+        <item
+            android:id="@+id/nav_requests_personal"
+            android:icon="@drawable/ic_requests_personal"
+            android:title="@string/requests_personal"
+            app:actionViewClass="android.widget.TextView"/>
+        <item
+            android:id="@+id/nav_requests_for_all"
+            android:icon="@drawable/ic_requests_for_all"
+            android:title="@string/requests_for_all"
+            app:actionViewClass="android.widget.TextView"/>
+        <item
+            android:id="@+id/nav_data_about_graduates"
+            android:icon="@drawable/ic_list"
+            android:title="@string/data_about_graduates" />
+        <item
+            android:id="@+id/nav_agreement"
+            android:icon="@drawable/ic_agreement"
+            android:title="@string/agreement"/>
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tech_support"
+            android:icon="@drawable/ic_tech_support"
+            android:title="@string/tech_support"/>
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/exit" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/status_of_busy"
+            android:title=""
+            app:actionLayout="@layout/switch_layout"/>
+    </group>
+</menu>

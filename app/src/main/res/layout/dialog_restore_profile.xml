@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llRestoreProfile"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+        <TextView
+            style="@style/TextStyleForTitleOfDialog"
+            android:text="@string/message_restore_profile"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnRestoreProfile"
+                style="@style/ButtonStyleLeft"
+                android:text="@string/button_restore"/>
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/ButtonStyleRight"
+                android:text="@string/button_cancel"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llFailedInternetConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:visibility="gone">
+        <TextView
+            style="@style/TextStyleForTitleOfDialog"
+            android:text="@string/check_connection"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnTryRequest"
+                style="@style/ButtonStyleLeft"
+                android:text="@string/try_request"/>
+            <Button
+                android:id="@+id/btnCancelRequest"
+                style="@style/ButtonStyleRight"
+                android:text="@string/button_cancel"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llShowResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/tvShowResult"
+            style="@style/TextStyleForTitleOfDialog"/>
+        <Button
+            android:id="@+id/btnOk"
+            style="@style/ButtonStyle"
+            android:text="@string/button_ok"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarRestoreProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

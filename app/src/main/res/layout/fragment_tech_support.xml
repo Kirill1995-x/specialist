@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/common_padding"
+    android:background="@drawable/background_main"
+    tools:context=".FragmentTechSupport">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/TextStyle"
+                android:text="@string/tech_support_title"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/etMessageForTechSupport"
+                style="@style/EditTextStyleForTextLineBlack"
+                android:hint="@string/tech_support_describe"
+                android:gravity="start|top"
+                android:background="@drawable/field_tech_support"/>
+
+            <TextView
+                style="@style/TextStyle"
+                android:text="@string/tech_support_attach_screenshot_describe"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/llAttachScreenshot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="@dimen/marginBottom">
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabAttachScreenshot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tint="@android:color/white"
+                    android:contentDescription="@string/contentDescriptionButtonAttach"
+                    android:backgroundTint="@color/color_for_floating_button"
+                    app:fabSize="mini"/>
+                <TextView
+                    android:id="@+id/tvAttachScreenshot"
+                    style="@style/TextStyleForFile"
+                    android:text="@string/tech_support_attach_screenshot"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSendMessageToTechSupport"
+                style="@style/ButtonStyle"
+                android:text="@string/send"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBarTechSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+</FrameLayout>

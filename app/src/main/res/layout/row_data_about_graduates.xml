@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/common_padding"
+    android:paddingTop="@dimen/common_padding">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageOfProfile"
+        style="@style/ImageViewListStyle"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="@dimen/marginBottom">
+        <TextView
+            android:id="@+id/fullname_of_graduate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/main_size"
+            android:textColor="@color/color_for_text"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/city_of_graduate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/main_size"
+            android:textColor="@color/color_for_text"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

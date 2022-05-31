@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0D6949</color><!--основной цвет интерфейса программы-->
+    <color name="colorPrimaryDark">#023926</color><!--цвет для системных элементов-->
+    <color name="colorAccent">#023926</color><!--цвет по умолчанию для активных компонентов-->
+    <color name="color_for_side_menu">#049875</color><!--цвет для бокового меню-->
+    <color name="color_for_text">#FFFFFF</color><!--основной цвет для текста-->
+    <color name="color_for_spinner">#000000</color><!--цвет текста в спиннерах-->
+    <color name="color_for_link_for_document">#0000FF</color><!--цвет для ссылок-->
+    <color name="color_for_dialog">#000000</color><!--цвет текста в полях для диалогов-->
+    <color name="color_for_hint_messages">#808080</color><!--цвет подсказок в полях для изменения пароля и ввода сообщений: Специалистам или тех.поддержке-->
+    <color name="color_for_important_hint">#DC143C</color><!--цвет для подсказок-->
+    <color name="color_for_floating_button">#DC143C</color><!--цвет для FloatingActionButton-->
+</resources>

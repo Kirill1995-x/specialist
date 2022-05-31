@@ -1,0 +1,77 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin_right">20dp</dimen>
+    <dimen name="activity_horizontal_margin_left">10dp</dimen>
+    <dimen name="activity_vertical_margin">36dp</dimen>
+    <dimen name="nav_header_vertical_spacing">19dp</dimen>
+    <dimen name="nav_header_height">192dp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <!--main parameters-->
+    <dimen name="main_size">24sp</dimen>
+    <dimen name="common_padding">10dp</dimen>
+    <dimen name="marginTop">12dp</dimen>
+    <dimen name="marginBottom">12dp</dimen>
+    <!--sizes for ImageView-->
+    <dimen name="layout_width_for_ImageView">180sp</dimen>
+    <dimen name="layout_height_for_ImageView">180sp</dimen>
+    <dimen name="layout_width_for_ImageView_in_ListView">72sp</dimen>
+    <dimen name="layout_height_for_ImageView_in_ListView">72sp</dimen>
+    <dimen name="layout_width_for_ImageView_in_nav_header_main">72sp</dimen>
+    <dimen name="layout_height_for_ImageView_in_nav_header_main">72sp</dimen>
+    <dimen name="layout_marginTop_for_ImageView">12dp</dimen>
+    <dimen name="layout_marginBottom_for_ImageView">12dp</dimen>
+    <dimen name="size_of_width_for_icon">150dp</dimen>
+    <dimen name="size_of_height_for_icon">150dp</dimen>
+    <!--sizes for ImageView in message-->
+    <dimen name="layout_width_for_ImageView_in_message">56dp</dimen>
+    <dimen name="layout_height_for_ImageView_in_message">56dp</dimen>
+    <dimen name="layout_width_for_icon_in_message">40dp</dimen>
+    <dimen name="layout_height_for_icon_in_message">40dp</dimen>
+    <dimen name="layout_marginLeft_for_icon_in_message">7dp</dimen>
+    <dimen name="layout_marginRight_for_icon_in_message">7dp</dimen>
+    <dimen name="layout_marginBottom_for_icon_in_message">7dp</dimen>
+    <!--sizes for Spinners-->
+    <dimen name="layout_marginBottom_for_Spinner">24dp</dimen>
+    <!--sizes for TextView-->
+    <dimen name="size_for_text_in_recyler_view_main">27sp</dimen>
+    <dimen name="height_for_recyclerview_main">96sp</dimen>
+    <dimen name="size_for_fullname_and_date_in_message">15sp</dimen>
+    <dimen name="margin_before_imageview_in_documentation">7dp</dimen>
+    <dimen name="size_for_title_text">32sp</dimen>
+    <dimen name="size_for_message">24sp</dimen>
+    <!--size for fields-->
+    <dimen name="height_for_field_tech_support">144sp</dimen>
+    <dimen name="height_for_field_search">50sp</dimen>
+    <!--sizes for RecyclerView-->
+    <dimen name="recycler_view_margin_right">12dp</dimen>
+    <dimen name="recycler_view_margin_left">12dp</dimen>
+    <!--sizes for Button-->
+    <dimen name="floating_button_margin_right">7dp</dimen>
+    <dimen name="floating_button_margin_bottom">7dp</dimen>
+    <dimen name="design_fab_image_size"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:override="true">30dp</dimen>
+    <dimen name="design_fab_size_mini"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:override="true">50dp</dimen>
+    <dimen name="design_fab_size_normal"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:override="true">70dp</dimen>
+    <dimen name="size_of_text_for_buttons">17sp</dimen>
+    <dimen name="padding_for_button">60dp</dimen>
+    <!--sizes for ListView in online_consultant_message-->
+    <dimen name="message_margin_left">12dp</dimen>
+    <dimen name="message_margin_right">12dp</dimen>
+    <dimen name="message_margin_bottom">20dp</dimen>
+    <dimen name="message_divider_height">20dp</dimen>
+    <!--sizes for NavigationDrawer-->
+    <dimen name="size_of_text_for_item">17sp</dimen>
+    <dimen name="size_of_small_height">35sp</dimen>
+    <!--sizes for SplashScreen-->
+    <dimen name="top_and_bottom_margin">350dp</dimen>
+    <dimen name="left_and_right_margin">85dp</dimen>
+    <!--size for visible part of bottom menu-->
+    <dimen name="height_of_visible_bottom_menu">56dp</dimen>
+    <!--size for fragment_data_about_graduates-->
+    <dimen name="height_margin_top">111dp</dimen>
+</resources>

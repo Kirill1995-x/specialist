@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/common_padding"
+    android:background="@drawable/background_main"
+    tools:context=".FragmentRequestsForAll">
+
+    <RelativeLayout
+        android:id="@+id/rlRequestsForAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/tvRequestsForAll"
+            style="@style/TextStyleForTitle"
+            android:text="@string/list_of_requests_for_all" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/srlRequestsForAll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvRequestsForAll">
+            <ListView
+                android:id="@+id/lvRequestsForAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+
+    <include
+        layout="@layout/activity_failed_internet_connection"
+        android:id="@+id/viewFailedInternetConnection"
+        android:visibility="gone"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarFragmentRequestsForAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

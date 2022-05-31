@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/common_padding"
+    android:background="@drawable/background_main"
+    tools:context=".FragmentRequestsInProgress">
+
+    <RelativeLayout
+        android:id="@+id/rlRequestsInProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/tvRequestRequestsInProgress"
+            style="@style/TextStyleForTitle"
+            android:text="@string/list_of_requests_in_progress" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/srlRequestsInProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvRequestRequestsInProgress">
+            <ListView
+                android:id="@+id/RequestRequestsInProgress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+
+    <include
+        layout="@layout/activity_failed_internet_connection"
+        android:id="@+id/viewFailedInternetConnection"
+        android:visibility="gone"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarFragmentRequestsInProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

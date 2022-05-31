@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1004329057826",
+    "project_id": "specialist-5250e",
+    "storage_bucket": "specialist-5250e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004329057826:android:c8aa441dccabb40229147b",
+        "android_client_info": {
+          "package_name": "com.tohelp.specialist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004329057826-s5s1kv03i7inh4vkfv03i6luhn1hj09h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-uykDCbdYqzs-1v_FyYQXmwYtjSmrKWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004329057826-s5s1kv03i7inh4vkfv03i6luhn1hj09h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
